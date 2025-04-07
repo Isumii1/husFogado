@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menhely</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar rounded-bottom bg-white border-bottom border-start border-end border-2 border-danger navbar-expand-lg shadow px-5 fs-5">
+            <div><a class="nav-link active text-danger fs-4 fw-bold" id="foNav" href="index.html">Hús megőrző</a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-end text-center" id="navbarNav">
+                <ul class="navbar-nav fs-6 fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="termekekNav" href="allatok.html">Örökbefogadás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="informaciokNav" href="informaciok.html">Információk</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn btn-danger m-auto d-flex justify-content-center" id="nyelvGomb">
+                            <div id="nyelvCsereleseSzoveg" class="me-2 fs-6 fw-medium">Nyelv cserélése</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+                                <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.4s35-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z"/>
+                                <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31"/>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-3 mt-5 align-items-center">
+        <div class="col h-100 shadow bg-white rounded rounded-5 p-3 border-4 border border-danger">
+            <img src="fo1.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col h-100 shadow bg-dark rounded rounded-5 p-3">
+            <div class="fw-bold text-white fs-5" id="foSzoveg">Ha úgy érzed, hogy életedből hiányzik egy kis hűséges kutya vagy cicus, aki mindig ott van, amikor a kedvenc zoknid eltűnik (mert ő biztos, hogy elrabolta), akkor itt a helyed! A menhelyünk tele van kutyákkal és macskákal, akik különleges szuperképességekkel rendelkeznek: egyikük profi kanapépihenő, másikuk pedig szakértő a ’három órás séta után is éhes vagyok’ programban. Kutyáink és macskáink készen állnak arra, hogy átvegyék a házvezetést, biztosítva, hogy az összes napod tele legyen mókával, fura hangokkal (igen, ők tudnak beszélni, de titokban) és természetesen rengeteg szeretettel. Ha pedig azt hiszed, hogy egy kutya vagy macska nem tudna meglepni, várj, amíg a tiéd megpróbálja elérni a hűtőt…</div>
+        </div>
+        <div class="col h-100 shadow bg-white rounded rounded-5 p-3 border-4 border border-danger">
+            <img src="fo2.jpg" class="img-fluid" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

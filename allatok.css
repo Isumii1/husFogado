@@ -1,0 +1,10 @@
+body{
+    /*Bálint Eszter diplomamunkája a háttérkép*/
+    background-image: url('kutya.jpg');
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+}
